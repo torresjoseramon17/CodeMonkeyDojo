@@ -1,0 +1,33 @@
+
+
+Mon Sep  3 19:09:47 2018
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-33-generic (#36~16.04.1-Ubuntu SMP Wed Aug 15 17:21:05 UTC 2018) x86_64
+Compiler: GCC 5.3
+ext2fs lib: 1.42.13, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, LBA48, DCO support
+/dev/sda: size       1953525168 sectors
+/dev/sda: user_max   1953525168 sectors
+/dev/sda: dco        1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - WDC WD10JPVX-60JC3T1, S/N:WD-WX81AB74US88, FW:02.01A02
+Disk /dev/sdb - 241 MB / 230 MiB - CHS 1016 8 58, sector size=512, FW:5.00
+
+Partition table type (auto): Intel
+Disk /dev/sdb - 241 MB / 230 MiB
+Partition table type: Intel
+Partition table has been cleared.
+You have to reboot for the change to take effect.
+New options :
+ Dump : No
+ Align partition: Yes
+ Expert mode : No
+
+Interface Advanced
+
+TestDisk exited normally.
