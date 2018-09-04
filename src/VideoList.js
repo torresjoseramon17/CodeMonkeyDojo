@@ -7,3 +7,21 @@
 
 // the tutorial table should hold the keyword information for our search
 // functionality that will be displayed in the video list
+
+import React, { Component } from 'react';
+import './App.css';
+
+var VideoList = ({ videos, handleVideoListEntryClick}) => {
+  <div className="videoList">
+    {videos.map((video) => (
+      <VideoListEntry
+        video={video}
+        key={video.id.videoId}
+        handleVideoListEntryClick={handleVideoListEntryClick}
+      />
+      )
+    )}
+  </div>
+};
+
+export default VideoList;
