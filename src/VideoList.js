@@ -4,3 +4,6 @@
 
 // I can optimize the search terms for the tutorials so that they display
 // the most relevant YouTube videos
+
+// the tutorial table should hold the keyword information for our search
+// functionality that will be displayed in the video list
