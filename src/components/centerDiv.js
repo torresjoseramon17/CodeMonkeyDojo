@@ -1,7 +1,8 @@
 import React from 'react';
+// import chepesText from '../App.css'
 
 const CenterDiv= () =>(
-  <div class="w3-content w3-container w3-padding-64" id="about">
+  <div class="chepesText" id="about">
     <h3 class="w3-center">ACERCA DE CODE MONKEY</h3>
     <p class="w3-center"><em>Me gusta programar</em></p>
     <p>Hemos creado un sitio web ficticio, ya que nuestro hobby es programar.

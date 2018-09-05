@@ -3,7 +3,8 @@ import logo from './resources/logo.gif';
 import './App.css';
 import Navbar from './components/navbar.js'
 import CenterDiv from './components/centerDiv.js'
-//testing components jose t
+import Footer from './components/footer.js'
+
 class App extends Component {
   render() {
     return (
@@ -17,6 +18,7 @@ class App extends Component {
           All rights reserved <code>src/App.js</code>
         </p>
         <CenterDiv />
+        <Footer />
       </div>
     );
   }
