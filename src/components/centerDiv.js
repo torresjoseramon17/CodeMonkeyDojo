@@ -3,8 +3,10 @@ import '../App.css'
 
 const CenterDiv= () =>(
   <div class="block">
-    <h3>ACERCA DE CODE MONKEY</h3>
-    <p><em>Me gusta programar</em></p>
+  <br></br><br></br>
+  <hr></hr>
+    <h3 class="App-title" style={{background: 'rgba(0, 0, 0, 0.7'}}>ACERCA DE CODE MONKEY</h3>
+    <p class="App-intro"><em>Me gusta programar</em></p>
     <p>Hemos creado un sitio web ficticio, ya que nuestro hobby es programar.
       Y nuestro principal objetivo es estimular y desarrolar el uso de la logica.
       enfocandonos especificamente en niños de temprana edad..</p>
