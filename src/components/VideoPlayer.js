@@ -6,7 +6,7 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 
-class Example extends React.Component {
+class VideoComponent extends React.Component {
   render() {
     const opts = {
       height: '390',
@@ -31,4 +31,4 @@ class Example extends React.Component {
   }
 }
 
-export default Example;
+export default VideoComponent;
