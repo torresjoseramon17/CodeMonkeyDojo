@@ -5,7 +5,7 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 100px;
 }
 
 .App-header {
@@ -17,6 +17,8 @@
 
 .App-title {
   font-size: 1.5em;
+  font-style: oblique;
+  font-weight: bold;
 }
 
 .App-intro {
@@ -37,6 +39,7 @@ body, html {
     line-height: 1.8;
       background-size: center;
       background-image: url("./resources/images/cmt1.jpg");
+      background-repeat: no-repeat;
 }
 
 /* Create a Parallax Effect */
@@ -60,7 +63,7 @@ body, html {
 
 .block {
   dislay: block;
-  padding: 10px;
+  padding: 50px;
 }
 
 
