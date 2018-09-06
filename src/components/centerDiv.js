@@ -9,7 +9,7 @@ const CenterDiv= () =>(
       Y nuestro principal objetivo es estimular y desarrolar el uso de la logica.
       enfocandonos especificamente en niños de temprana edad..</p>
 
-      <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <div class="w3-col m6 w3-hide-small">
 
         <p>Este es el primer sitio dirigido  a niños de habla hispana, para integrarlos al mundo de la programacion.
           De la manera mas facil y divertida.
