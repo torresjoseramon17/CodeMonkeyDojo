@@ -12,13 +12,13 @@ class Example extends React.Component {
       height: '390',
       width: '640',
       playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1
+        autoplay: 2
       }
     };
 
     return (
       <YouTube
-        videoId="2g811Eo7K8U"
+        videoId="IBB-m1lfaqY"
         opts={opts}
         onReady={this._onReady}
       />
@@ -30,3 +30,5 @@ class Example extends React.Component {
     event.target.pauseVideo();
   }
 }
+
+export default Example;

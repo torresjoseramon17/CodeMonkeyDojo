@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/navbar.js'
 import CenterDiv from './components/centerDiv.js'
 import Footer from './components/footer.js'
+import Example from './components/VideoPlayer.js'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           All rights reserved <code>src/App.js</code>
         </p>
         <CenterDiv />
+        <Example />
         <Footer />
       </div>
     );
