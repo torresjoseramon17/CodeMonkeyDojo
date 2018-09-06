@@ -58,7 +58,10 @@ body, html {
     }
 }
 
-
+.block {
+  dislay: block;
+  padding: 10px;
+}
 
 
 

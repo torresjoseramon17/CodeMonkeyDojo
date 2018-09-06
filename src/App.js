@@ -10,7 +10,7 @@ import VideoComponent from './components/VideoPlayer.js'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App"><div>
         <Navbar />
           <header className="App-header">
         </header>
@@ -20,10 +20,11 @@ class App extends Component {
           <br></br><img src={logo} className="App-logo" alt="logo" /><br></br>
           <h1 className="App-title">Pete, Data, Chepe and Pancho Working!</h1>
         <p className="App-intro">
-          All rights reserved
+          All Rights Reserved
         </p>
-        {/*<CenterDiv />
-        <VideoComponent />*/}
+        <CenterDiv />
+        {/*<VideoComponent />*/}
+      </div>
         <Footer />
       </div>
     );
