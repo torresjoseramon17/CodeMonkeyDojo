@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
 import App from './App';
+// import HowToText from ./components/HowToText.js
 import registerServiceWorker from './registerServiceWorker';
 
 // function Welcome(props) {
@@ -11,4 +12,5 @@ import registerServiceWorker from './registerServiceWorker';
 // };
 
 ReactDOM.render(<App />, document.getElementById('CodeMonkeyDojo'));
+// ReactDOM.render(<App />, document.getElementById('HowToText'));
 registerServiceWorker();
