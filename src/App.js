@@ -6,6 +6,7 @@ import Navbar from './components/navbar.js'
 import CenterDiv from './components/centerDiv.js'
 import Footer from './components/footer.js'
 import VideoComponent from './components/VideoPlayer.js'
+import HowToText from './components/HowToText.js'
 
 class App extends Component {
   render() {
@@ -23,7 +24,8 @@ class App extends Component {
           All Rights Reserved
         </p></div>
         <CenterDiv />
-        {/*<VideoComponent />*/}
+        <HowToText />
+        <VideoComponent />
       </div>
         <Footer />
       </div>
