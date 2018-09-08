@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   password: 'Asus1!',
   database: 'MonkeyDB'
 });
-
+//I should not be able to change th master master
 // connection.connect();
 // var Users = {
 //   type : 1,
