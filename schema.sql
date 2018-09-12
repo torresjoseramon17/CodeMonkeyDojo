@@ -32,7 +32,6 @@ CREATE TABLE Forum (
     name varchar(36) NOT NULL,
     description varchar(200) NOT NULL,
     parent_id int NOT NULL,
-    datetime datetime NOT NULL,
     PRIMARY KEY (ID)
   );
 

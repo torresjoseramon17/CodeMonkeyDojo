@@ -3,7 +3,7 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Asus1!',
+  password: 'holacode',
   database: 'MonkeyDB'
 });
 //I should not be able to change th master master
